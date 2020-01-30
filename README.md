@@ -2,11 +2,6 @@
 Provisioning API Gateway along with DynamoDB and Lambda function using Terraform
 
 
-
-# Cloudformation-Stacks
-    This project sets up an API Gateway with basic HTTP methods i.e, GET,POST,DELETE,PATCH etc along with a DynamoDB table       for database operations. Moreover, Lambda functions are also created for providing the backend to perform database           operations
-
-
 ## Files
     This Repository consists of four modules along with their necessary files(main.tf,vars.tf,outputs.tf).
       1.API_Gateway
