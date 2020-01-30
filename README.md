@@ -16,10 +16,12 @@ Provisioning API Gateway along with DynamoDB and Lambda function using Terraform
       3.outputs.tf
    
 ### 1. Module API_Gateway
-    In this module, resources for the sake of Restful API creation are placed which includes http methods,                       integrations,responses etc.
+    In this module, resources for the sake of Restful API creation are placed which includes http methods,
+    integrations,responses etc.
 ### 2. Module DynamoDB
-    In this module, a DynamoDB table is created used to perform database operation like get,insert,update and delete data.
+    In this module, a DynamoDB table is created used to perform database operation like get,insert,
+    update and delete data.
 ### 3. Module IAM
-    It contains an IAM roles with respective policies necessary to permit lambda to invoke API Gateway
+    It contains an IAM roles with respective policies necessary to permit lambda to invoke API Gateway.
 ### 4. Module Lambda
     In this module, four lambda functions are created.
